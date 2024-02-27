@@ -10,23 +10,38 @@
 </head>
 <body class="ms-background-debug">
     <header class="d-flex align-items-center">
-            <nav class="container-fluid">
+            <nav class="container-fluid ms-nav">
                 <div class="row align-items-center bg-white">
-                    <div class="col-auto">
-                        <img src="img/logo.svg" alt="logo">
+                    <div class="col-auto d-flex">
+                        <div class="logo d-none d-lg-block">
+                            <img src="img/logo.svg" alt="logo" class="">
+                        </div>
+                        <div class="small-logo d-lg-none  d-inline-flex d-sm-inline-flex d-md-inline-flex">
+                            <img src="img/mobile-logo.png" alt="mobile-logo" class="">
+                        </div>
                     </div>
                     <div class="col">
                         <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezione di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                          </div>
+                            <span class="input-group-text ms-search-bg" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control ms-search-bg" placeholder="Prova a cercare: Lezione di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
                     </div>
-                
-
-                    <div class="col-auto">
-                            <i class="fa-solid fa-list-ul"></i>
-                            <i class="fa-solid fa-circle-question"></i>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="col-auto d-flex gap-3">
+                            <div class="ms-btn d-flex">
+                                <button class="ms-btn"> <i class="fa-solid fa-list-ul"></i></button>
+                                <button class="ms-btn"> <i class="fa-solid fa-circle-question"></i></button>
+                                <button class="ms-btn"> <i class="fa-solid fa-ellipsis-vertical"></i></button>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell" style="color: #ff8f00;"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                              </div>
                     </div>
                 </div>
             </nav>

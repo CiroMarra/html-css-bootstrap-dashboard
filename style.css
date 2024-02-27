@@ -1,3 +1,8 @@
+.form-control:focus {
+    box-shadow: none;
+}
+
+
 .ms-background-debug {
     background-color: black;
 }
@@ -7,6 +12,17 @@
     background-color: white;
 }
 
-.search {
-   max-width: 100%;
+.ms-btn {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.ms-search-bg {
+    background-color: #e5e5e5;
+}
+
+.small-logo {
+   width: 60px;
+   height: 60px;
 }
