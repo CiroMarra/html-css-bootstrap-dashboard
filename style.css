@@ -1,0 +1,12 @@
+.ms-background-debug {
+    background-color: black;
+}
+
+.ms-nav {
+    max-height: 4.375rem;
+    background-color: white;
+}
+
+.search {
+   max-width: 100%;
+}
