@@ -125,10 +125,26 @@ max-width: 100%;
 
   }
 
+  @media screen and ( max-width: 763px) {
+    
+    .offcanvas.offcanvas-end {
+      width: 60%
+    }
+
+}
+
   @media screen and ( max-width: 540px) {
     
     .offcanvas.offcanvas-end {
       width: 55%
     }
+
+}
+
+@media screen and ( max-width: 465px) {
+    
+  .offcanvas.offcanvas-end {
+    width: 85%
+  }
 
 }
