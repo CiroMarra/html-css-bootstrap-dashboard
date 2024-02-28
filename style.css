@@ -3,7 +3,7 @@
 ************************* */
 
 .ms-container{
-    max-width: 100%;
+max-width: 100%;
 }
 
 
@@ -36,10 +36,7 @@
     height: 47px;
 }
 
-main {
-    min-height:  calc(100vh - 4.375rem);
-    background-color: orange;
-}
+
 
 
 
@@ -47,8 +44,8 @@ main {
     color: white;
     background-color: #051e34;
     background-image: url(img/sidebar-bg.png);
-    max-width: 8vw;
-    min-height: calc(100vh - 4.375rem);
+    width: 8vw;
+    height: calc(100vh - 4.375rem);
     overflow: hidden;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -66,16 +63,55 @@ main {
 
   }
 
+  .ms-background-student {
+    background-color: #1b72e8;
+  }
+
   .a {
     display: flex;
     align-items: flex-end;
   }
+
+  .plan {
+    width: 100%;
+  }
+
+  .ms-badge {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #165bba;
+  }
+  
+  .ms-main-txt {
+    font-size: 1.2rem;
+  }
+
+
+  @media screen and ( max-width: 1920px) {
+    
+      .offcanvas.offcanvas-end {
+        width: 35%
+      }
+
+  }
+
+  @media screen and ( max-width: 1320px) {
+    
+    .offcanvas.offcanvas-end {
+      width: 55%
+    }
+
+}
+
   
   @media screen and ( max-width: 1041px) {
     
-
     .ms-text {
         display: none;
+    }
+
+    .offcanvas.offcanvas-end {
+      width: 55%
     }
 
   }
@@ -85,5 +121,14 @@ main {
     .ms-text {
         display: none;
     }
+    
 
   }
+
+  @media screen and ( max-width: 540px) {
+    
+    .offcanvas.offcanvas-end {
+      width: 55%
+    }
+
+}

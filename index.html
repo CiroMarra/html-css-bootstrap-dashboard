@@ -46,18 +46,158 @@
                 </div>
             </nav>
     </header>
-    <main>
-    <div class="ms-container">
-        <div class="sidebar text-center py-3 d-flex  flex-column"> 
-            <div class="p-2"><i class="fa-solid fa-house"></i> <span class="ms-text"> Home</span></div>
-            <div class="p-2"><i class="fa-solid fa-chart-simple"></i><span class="ms-text"> Stats</span></div>
-            <div class="p-2"><i class="fa-solid fa-signal"></i><span class="ms-text"> Signal</span></div>
-            <div class="mt-auto p-2"><i class="fa-solid fa-gear"></i> <span class="ms-text"> Admin</span></div>
-        </div>
-    
+    <main class="d-flex">
+        <aside class="ms-container d-flex">
+            <div class="sidebar text-center py-3 d-flex  flex-column"> 
+                <div class="p-1"><i class="fa-solid fa-house"></i> <span class="ms-text"> Home</span></div>
+                <div class="p-1"><i class="fa-solid fa-chart-simple"></i><span class="ms-text"> Stats</span></div>
+                <div class="p-1"><i class="fa-solid fa-signal"></i><span class="ms-text"> Signals</span></div>
+                <div class="mt-auto p-2"><i class="fa-solid fa-gear"></i> <span class="ms-text"> Admin</span></div>
+            </div>    
+        </aside>
 
-    </div>
-        
+    <section class="text-white plan">
+        <div class="container-fluid ms-background-student d-flex">
+            <div class="row flex-grow-1">
+                <div class="col-12 col-md-4 col-lg-4 pt-3 order-2 order-md-1 order-lg-1">
+                    <div class="my-card">
+                        <div class="card-body">
+                            <h4 >Boolean<span class="badge rounded-pill ms-badge ms-2">Piano Blaze</span></h4>
+                            <span class="badge rounded-pill ms-badge">3 app</span> <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean mobile app</span>
+                            <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean web app</span>
+                            <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean blog app</span>
+                            <span class="badge rounded-pill ms-badge d-inline-flex d-sm-inline-flex d-md-inline-flex d-lg-none">+</span>     
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 pt-3 order-3 order-md-2 order-lg-2">
+                    <div class="my-card d-flex">
+                        <div class="card-body">
+                            <h5>Studenti online negli ultimi 30 minuti</h5>
+                            <h3>125</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4  pt-3 order-1 order-md-3 order-lg-3">
+                    <div class="my-card d-flex">
+                        <div class="card-body">
+                            <span class="ms-main-txt">Nuovo studente</span>
+                            <button class="btn btn-outline-light ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-sharp fa-solid fa-plus"></i></button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                               <div class="offcanvas-body">
+                                    <form class="row">
+                                        <div class="col-6">
+                                            Name
+                                        <label for="Name" class="visually-hidden"></label>
+                                        <input type="name" class="form-control" id="inputPassword2" placeholder="">
+                                        </div>
+                                        <div class="col-6">
+                                            Cognome
+                                            <label for="Surname" class="visually-hidden"></label>
+                                            <input type="surname" class="form-control" id="inputPassword2" placeholder="">
+                                        </div>
+                                    </form>
+
+                                    <form class="row">
+                                        <div class="col-6">
+                                            Email
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="" aria-label="email" aria-describedby="basic-addon1">
+                                              </div>
+                                        </div>
+                                        <div class="col-6">
+                                            Password
+                                            <label for="Surname" class="visually-hidden"></label>
+                                            <input type="surname" class="form-control" id="inputPassword2" placeholder="">
+                                        </div>
+                                    </form>
+
+                                    <form class="row">
+                                        <div class="col-6">
+                                           Indirizzo Email
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="" aria-label="email" aria-describedby="basic-addon1">
+                                              </div>
+                                        </div>
+                                        <div class="col-6">
+                                            Password
+                                            <label for="Surname" class="visually-hidden"></label>
+                                            <input type="surname" class="form-control" id="inputPassword2" placeholder="">
+                                        </div>
+                                    </form>
+
+                                    <form class="row">
+                                        <div class="col-12">
+                                            Indirizzo
+                                            <div class="input-group flex-nowrap">
+                                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div> 
+                                    </form>  
+                                    
+                                    <form class="row">
+                                        <div class="col-5">
+                                            Città
+                                            <div class="input-group flex-nowrap">
+                                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div> 
+
+                                        <div class="col-4">
+                                            Stato
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Scegli</option>
+                                                <option value="1">Italia</option>
+                                                <option value="2">Francia</option>
+                                                <option value="3">Cina</option>
+                                              </select>
+                                        </div> 
+
+                                        <div class="col-3">
+                                            CAP
+                                            <div class="input-group flex-nowrap">
+                                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div> 
+                                    </form>
+
+                                    <form class="row">
+                                        <div class="col-12">
+                                            
+                                            <div class="py-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+                                        </div> 
+                                    </form>  
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Selezione per proseguire
+                                        </label>
+                                    </div>
+
+                                    <div class="d-grid gap-2 d-md-block py-3">
+                                        <button class="btn btn-primary" type="button">Salva</button>
+                                        <button class="btn btn-warning" type="button">Svuota</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>   
+        </div>
+    </section>   
 
     </main>
 
