@@ -3,6 +3,24 @@ max-width: 100%;
 }
 
 
+
+.over {
+  background-color: inherit;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+.over:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
 .form-control:focus {
     box-shadow: none;
 }
@@ -31,6 +49,7 @@ max-width: 100%;
     width: 47px;
     height: 47px;
 }
+
 
 
 
