@@ -40,7 +40,7 @@ max-width: 100%;
 }
 
 .ms-class-avatar {
-  max-width: 7%;
+  width: 2rem;
 }
 
 .ms-th {
